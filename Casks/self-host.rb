@@ -4,21 +4,21 @@ cask "self-host" do
 
   on_macos do
     on_arm do
-      sha256 "21f987cd31c6e7c0a63bf30a5a77f0e759c8059a6d48ffa1780f78601a2a6afe"
+      sha256 "bca71c423cae037e66c6ed5b98de4683d95a5f8aee64f9b37b117f0a0f725a10"
       url "https://github.com/ajnart/self-host/releases/download/v#{version}/self-host_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "11cd9919a0df7f48a758fbb67dc34035157f6eace0d48c874c98d0d2889572cf"
+      sha256 "cbe966da485018f9e4bf2765faf79decea61f80e25893d8e785a56d494aa76bb"
       url "https://github.com/ajnart/self-host/releases/download/v#{version}/self-host_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "34f2cbe7fc0ef5f8dce1bf2a44d9e1f9ad9cd55541660e63f6a95138a74b2b40"
+      sha256 "636831cb5d52d35d620a360f190d79b1e081eae0fb1e781650a199425b6d3d4b"
       url "https://github.com/ajnart/self-host/releases/download/v#{version}/self-host_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "0dadcfe6c0004f0cb00bd7be5cc65da93685af0f6b5440f8f9443e379af00bdd"
+      sha256 "e06498bf03445d9af2ef1774a610425d8bda0efaf4422389b51b706a01d21629"
       url "https://github.com/ajnart/self-host/releases/download/v#{version}/self-host_#{version}_linux_amd64.tar.gz"
     end
   end
