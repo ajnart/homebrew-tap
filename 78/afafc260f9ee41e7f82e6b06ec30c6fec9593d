@@ -1,0 +1,14 @@
+Casks/self-host.rb
+  h_d6e478ca18e517 3,7,11,17,21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "78afafc260f9ee41e7f82e6b06ec30c6fec9593d",
+  "prompts": {},
+  "humans": {
+    "h_d6e478ca18e517": {
+      "author": "Thomas Camlong <thomas@ajnart.fr>"
+    }
+  }
+}
